@@ -1,0 +1,52 @@
+.skills-container {
+	margin: 2% auto 5%;
+	width: 50%;
+	/* height:auto; */
+}
+
+.skills-title {
+	background: linear-gradient(180deg, transparent 60%, #8de4ff 0);
+	background-size: 50%;
+	width: max-content;
+	margin: 15% auto 2%;
+}
+
+.icon {
+	object-fit: contain;
+	height: 50px;
+	width: 50px;
+}
+
+.stack-item {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 20px;
+	justify-content: center;
+	align-content: center;
+}
+
+.stacks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@media (max-width: 800px) {
+	.skills-container {
+		width: 80%;
+		margin-top: 100px;
+		margin: 100px auto auto;
+	}
+}
+
+@media (max-width:400px) {
+
+
+    .icon {
+        height:30px;
+        width:30px;
+    }
+   
+
+}
